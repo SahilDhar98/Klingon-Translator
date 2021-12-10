@@ -8,7 +8,7 @@ var outputdiv = document.querySelector("#txt-output");
 btntranslate.addEventListener("click" , clickeventhandler);
 
 
-var serverURL = "https://api.funtranslations.com/translate/morse.json?text=";
+var serverURL = "https://api.funtranslations.com/translate/klingon.json?text=";
 // Url creator
 function urlcreator(input){
     return serverURL + input ;
